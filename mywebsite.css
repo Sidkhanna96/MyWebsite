@@ -1,0 +1,111 @@
+.navbar {
+	background: none;
+	border: 0;
+}
+
+.navbar .navbar-collapse {
+	border: 0;
+}
+
+body,html{
+	height:100%;
+	margin:0;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	color:#666;
+}
+
+.nav.navbar-nav li a {
+    color: White;
+	font-weight: 500;
+	text-shadow: black 0px 0px 10px;
+}
+
+.nav.navbar-nav li a:hover{
+	color:#D5D5D5;
+}
+
+.navbar-header img {
+	height:40px;
+	margin: 5px;
+}
+
+.pimg1 {
+	background-image: url(vYEocYv.gif);
+	min-height: 100%;
+	position:relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color:#666;
+}
+
+.ptext {
+	position:absolute;
+	top:40%;
+	text-align: center;
+	width: 100%;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	line-height: 1.8em;
+}
+
+.ptext .border {
+ background-color: #111;
+ color: #fff;
+ padding: 20px 10px;
+}
+
+
+.pimg2 {
+	background-image: url(GeEuGfe.gif);
+	min-height: 400px;
+	position:relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.section-dark {
+	background-color:#282e34;
+	color:#ddd;
+}
+
+.Media {
+	font-size: 45px;
+}
+
+.Media a {
+	text-decoration: none;
+	color:#fff;
+	opacity: 0.6;
+}
+
+.Media a:hover{
+	color:#fff;
+	opacity: 1;
+}
+
+.fa-linkedin-in:hover, .fa-github:hover, .fa-envelope:hover {
+	font-size: 50px;
+}
+
+
+.card1, .card2, .card3 {
+	display: inline-block;
+	padding: 12px;
+}
+
