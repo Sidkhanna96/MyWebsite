@@ -10,11 +10,11 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<meta charset="utf-8"> 
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="favicon.png">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
+	<script src="https://unpkg.com/scrollreveal"></script>
 	<link href="mywebsite.css" rel="stylesheet">
 </head>
 
@@ -27,7 +27,7 @@
 	    		<span class="icon-bar"></span>
 	    		<span class="icon-bar"></span>
 	    	</button>
-		    <a href="/"><img src="logo_transparent.png" class="img-circle"></a>	
+		    <a href="mywebsite.html"><img src="logo_transparent.png" class="img-circle"></a>
 	    </div>
 	    <div class="collapse navbar-collapse" id="MyNavbar">
 		    <ul class="nav navbar-nav navbar right">
@@ -56,7 +56,7 @@
 
 	<section class="section section-light">
 		<h2><div id="About">About Me</div></h2>
-		<p>Currently studying Specialization in Computing Science at <a href="https://www.ualberta.ca/" target="_blank" style="text-decoration: none">University Of Alberta</a></p>
+		<p>Currently studying Specialization in Computing Science at <a href="https://www.ualberta.ca/" target="_blank" style="text-decoration: none""<img src="https://avatars1.githubusercontent.com/u/31675687?s=460&v=4">University Of Alberta</a></p>
 		<div class="text-center">
 			<a class="btn btn-info" href="SidResume.pdf" target="_blank">View Resume</a>
 		</div>
@@ -67,23 +67,76 @@
 	<section class="section section-dark">
 		<h2><div id="Projects">Projects</div></h2>
 
-	<div class="card1">
-		<div class="github-card" data-github="Sidkhanna96/WSFMN" data-width="400" data-height="" data-theme="default"></div>
-		<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-	</div>
+		<a href="https://github.com/Sidkhanna96/skhanna1-CountBook">
+		<div class="parent">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title" style="color:#36454f"><img src="https://avatars1.githubusercontent.com/u/31675687?s=460&v=4" class="gImg">skhanna1-CountBook</h5>
+				<p class="card-text">countbook app which works as a counter developed using android studio.</p>
+			</div>
+		</div>
+		</a>
 
-	<div class="card2">
-		<div class="github-card" data-github="Sidkhanna96/skhanna1-CountBook" data-width="400" data-height="" data-theme="default"></div>
-		<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-	</div>
+		<a href="https://github.com/Sidkhanna96/Database">
+		<div class="card2">
+			<div class="card-body">
+				<h5 class="card-title" style="color:#36454f"><img src="https://avatars1.githubusercontent.com/u/31675687?s=460&v=4" class="gImg">Database</h5>
+				<p class="card-text">Database Project. Triggers and SQL.</p>
+			</div>
+		</div>
+		</a>
 
-	<div class="card3">
-		<div class="github-card" data-github="Sidkhanna96/Database" data-width="400" data-height="150" data-theme="default"></div>
-		<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-	</div>
+		<a href="https://github.com/Sidkhanna96/WSFMN">
+		<div class="card3" >
+			<div class="card-body">
+				<h5 class="card-title" style="color:#36454f"><img src="https://avatars3.githubusercontent.com/u/32562197?s=200&v=4" class="gImg">WSFMN</h5>
+				<p class="card-text">Android app developed using Android Studio (CMPUT 301).</p>
+			</div>
+		</div>
+		</a>
 
+	</div>
+	<div class="panda"></div>
+	
+	<div class="GitHub">
+			<a class="btn btn-info" href="https://github.com/Sidkhanna96?tab=repositories" target="_blank">More on GitHub</a>
+	</div>
 
 	</section>
+
+	<script>
+		window.sr = ScrollReveal();
+		// sr.reveal('.panda',{
+		// 	duration:2000,
+		// 	origin:'bottom',
+		// 	distance:'250px'});
+
+		sr.reveal('.card',{
+			duration:2000,
+			delay: 2000,	
+			origin:'right',
+			distance:'180px'});
+
+		sr.reveal('.card2',{
+			duration:2000,
+			delay: 800,
+			origin:'bottom',
+			distance:'20px'});
+
+		sr.reveal('.card3',{
+			duration:2000,
+			delay: 1500,
+			origin:'left',
+			distance:'180px'});
+
+		sr.reveal('.GitHub',{
+			duration:2000,
+			delay: 1500});
+
+		sr.reveal('.border',{
+			duration:3000});
+
+	</script>
 
 </body>
 </html>

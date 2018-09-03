@@ -41,6 +41,25 @@ body,html{
 	background-attachment: fixed;
 }
 
+.Media {
+	font-size: 45px;
+}
+
+.Media a {
+	text-decoration: none;
+	color:#fff;
+	opacity: 0.6;
+}
+
+.Media a:hover{
+	color:#fff;
+	opacity: 1;
+}
+
+.fa-linkedin-in:hover, .fa-github:hover, .fa-envelope:hover {
+	font-size: 50px;
+}
+
 .section {
 	text-align: center;
 	padding: 50px 80px;
@@ -66,6 +85,7 @@ body,html{
  background-color: #111;
  color: #fff;
  padding: 20px 10px;
+ /*opacity: 0.9;*/
 }
 
 
@@ -82,30 +102,68 @@ body,html{
 .section-dark {
 	background-color:#282e34;
 	color:#ddd;
+	overflow: hidden;
 }
 
-.Media {
-	font-size: 45px;
+.card, .card2, .card3 {
+	padding: 10px 10px;
+	background-color: white;
+	color: grey;
+	width: 20%;
+	height: 140px;
+	opacity: 0.8;
+	/*border-radius: 4%;*/
+	/*transform: rotate(45deg);*/
 }
 
-.Media a {
-	text-decoration: none;
-	color:#fff;
-	opacity: 0.6;
-}
+/*.card-body {
+	transform: rotate(-45deg);
+	position: absolute;
+	transform-origin: 50% 50%;
+	width: 100%;
+}*/
 
-.Media a:hover{
-	color:#fff;
+.card:hover, .card2:hover, .card3:hover {
 	opacity: 1;
 }
 
-.fa-linkedin-in:hover, .fa-github:hover, .fa-envelope:hover {
-	font-size: 50px;
+.gImg {
+	height: 20px;
 }
 
-
-.card1, .card2, .card3 {
-	display: inline-block;
-	padding: 12px;
+.parent {
+	padding-top: 50px
+	overflow: hidden;
 }
 
+.card {
+	float: left;
+}
+
+.card2 {
+	float: left;
+	margin-left: 5px;
+}
+
+.card3 {
+	float: left;
+	margin-left: 5px;
+}
+
+.card-title:hover {
+	text-decoration: underline;
+}
+
+.panda {
+	background-image: url(8f1bde13c1d9744c5b69ecdc82fdd128458c6441_hq.gif);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height:32%;
+	background-position: right; 
+}
+
+.GitHub {
+	/*margin-left: -20px;*/
+	transform: translateX(-220px);
+	margin-top: -60px;
+}
