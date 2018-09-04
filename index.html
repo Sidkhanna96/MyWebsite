@@ -105,6 +105,11 @@
 	</section>
 
 	<script>
+
+		window.onbeforeunload = function () {
+			window.scrollTo(0, 0);
+		}
+
 		window.sr = ScrollReveal();
 
 		sr.reveal('.border',{
