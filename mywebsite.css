@@ -17,9 +17,11 @@ body,html{
 }
 
 .nav.navbar-nav li a {
-    color: White;
+	color: #fff;
+    text-shadow: 0 0 5px black, 0 0 10px #000080, 0 0 20px #6CEBFC;
+/*     color: White;
 	font-weight: 500;
-	text-shadow: black 0px 0px 10px;
+	text-shadow: black 0px 0px 10px; */
 }
 
 .nav.navbar-nav li a:hover{
