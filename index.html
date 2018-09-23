@@ -15,7 +15,12 @@
 	<link rel="icon" type="image/x-icon" href="favicon.png">
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<script src="https://unpkg.com/scrollreveal"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="mywebsite.css" rel="stylesheet">
+	<script type="text/javascript" src="mywebsite.js"></script>
+
+
+
 </head>
 
 <body>
@@ -31,9 +36,9 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="MyNavbar">
 		    <ul class="nav navbar-nav navbar right">
-		    	<li><a href="#About">About</a></li>
-	    	 	<li><a href="SidResume.pdf" target="_blank">Resume</a></li>
-	      		<li><a href="#Projects">Projects</a></li>
+		    	<li><a class="neon" href="#About">About</a></li>
+	    	 	<li><a class="neon" href="SidResume.pdf" target="_blank">Resume</a></li>
+	      		<li><a class="neon" href="#Projects">Projects</a></li>
 	    	</ul>
 	  </div>
 	</div>
@@ -67,7 +72,9 @@
 	<section class="section section-dark">
 		<h2><div id="Projects">Projects</div></h2>
 
-		<a href="https://github.com/Sidkhanna96/skhanna1-CountBook">
+		
+
+		<!-- <a href="https://github.com/Sidkhanna96/skhanna1-CountBook">
 		<div class="parent">
 		<div class="card">
 			<div class="card-body">
@@ -105,12 +112,11 @@
 	</section>
 
 	<script>
-
 		window.onbeforeunload = function () {
-			window.scrollTo(0, 0);
-		}
+		window.scrollTo(0, 0);
+	}
 
-		window.sr = ScrollReveal();
+	window.sr = ScrollReveal();
 
 		sr.reveal('.border',{
 			duration:3000});
@@ -138,7 +144,8 @@
 		sr.reveal('.panda',{
 			delay:4000});
 
-	</script>
+
+	</script> -->
 
 </body>
 </html>

@@ -17,9 +17,9 @@ body,html{
 }
 
 .nav.navbar-nav li a {
-    color: White;
-	font-weight: 500;
-	text-shadow: black 0px 0px 10px;
+    color: #fff;
+    text-shadow: 0 0 5px black, 0 0 10px #000080, 0 0 20px #6CEBFC;
+    /*text-shadow: 0 0 5px black, 0 0 10px #000080, 0 0 20px #6CEBFC, 0 0 30px #6CEBFC, 0 0 40px #6CEBFC, 0 0 55px #6CEBFC, 0 0 75px #6CEBFC;*/
 }
 
 .nav.navbar-nav li a:hover{
@@ -105,23 +105,14 @@ body,html{
 	overflow: hidden;
 }
 
-.card, .card2, .card3 {
+/*.card, .card2, .card3 {
 	padding: 10px 10px;
 	background-color: white;
 	color: grey;
 	width: 20%;
 	height: 140px;
 	opacity: 0.8;
-	/*border-radius: 4%;*/
-	/*transform: rotate(45deg);*/
 }
-
-/*.card-body {
-	transform: rotate(-45deg);
-	position: absolute;
-	transform-origin: 50% 50%;
-	width: 100%;
-}*/
 
 .card:hover, .card2:hover, .card3:hover {
 	opacity: 1;
@@ -163,7 +154,6 @@ body,html{
 }
 
 .GitHub {
-	/*margin-left: -20px;*/
 	transform: translateX(-220px);
 	margin-top: -60px;
-}
+}*/
