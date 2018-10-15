@@ -105,7 +105,7 @@ body,html{
 	overflow: hidden;
 }
 
-/*.card, .card2, .card3 {
+.card, .card2, .card3 {
 	padding: 10px 10px;
 	background-color: white;
 	color: grey;
@@ -156,4 +156,4 @@ body,html{
 .GitHub {
 	transform: translateX(-220px);
 	margin-top: -60px;
-}*/
+}
