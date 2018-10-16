@@ -44,8 +44,8 @@
 	</div>
 	</nav>
 
-
 	<div class="pimg1">
+		<img src="avatar2.png" alt="Avatar" class="MyPic">
 		<div class="ptext">
 			<span class="border">
 				Sid Khanna
@@ -58,7 +58,6 @@
 		</div>
 	</div>
 
-
 	<section class="section section-light">
 		<h2><div id="About">About Me</div></h2>
 		<p>Currently studying Specialization in Computing Science at <a href="https://www.ualberta.ca/" target="_blank" style="text-decoration: none""<img src="https://avatars1.githubusercontent.com/u/31675687?s=460&v=4">University Of Alberta</a></p>
@@ -68,40 +67,44 @@
 	</section>
 	
 	<div class="pimg2"></div>
+	
 	<section class="section section-dark">
-		<h2><div id="Projects">Projects</div></h2>
-		<a href="https://github.com/Sidkhanna96/skhanna1-CountBook">
-		<div class="parent">
-		<div class="card">
+		<div id="Projects"><h2>Projects</h2></div>
+
+		<div class="container">
+			<div class="row">
+
+		<div class="card col-xs-12 col-md-3" style="cursor: pointer;" onclick="window.location= 'https://github.com/Sidkhanna96/skhanna1-CountBook';">
 			<div class="card-body">
 				<h5 class="card-title" style="color:#36454f"><img src="https://avatars1.githubusercontent.com/u/31675687?s=460&v=4" class="gImg">skhanna1-CountBook</h5>
 				<p class="card-text">countbook app which works as a counter developed using android studio.</p>
 			</div>
 		</div>
-		</a>
-		<a href="https://github.com/Sidkhanna96/Database">
-		<div class="card2">
+		
+		<div class="card2 col-xs-12 col-md-3" style="cursor: pointer;" onclick="window.location='https://github.com/Sidkhanna96/Database';">
 			<div class="card-body">
 				<h5 class="card-title" style="color:#36454f"><img src="https://avatars1.githubusercontent.com/u/31675687?s=460&v=4" class="gImg">Database</h5>
 				<p class="card-text">Database Project. Triggers and SQL.</p>
 			</div>
 		</div>
-		</a>
-		<a href="https://github.com/Sidkhanna96/WSFMN">
-		<div class="card3" >
+		
+		<div class="card3 col-xs-12 col-md-3" style="cursor: pointer;" onclick="window.location='https://github.com/Sidkhanna96/WSFMN';">
 			<div class="card-body">
 				<h5 class="card-title" style="color:#36454f"><img src="https://avatars3.githubusercontent.com/u/32562197?s=200&v=4" class="gImg">WSFMN</h5>
 				<p class="card-text">Android app developed using Android Studio (CMPUT 301).</p>
 			</div>
 		</div>
-		</a>
-	</div>
-	<div class="panda"></div>
-	
-	<div class="GitHub">
-			<a class="btn btn-info" href="https://github.com/Sidkhanna96?tab=repositories" target="_blank">More on GitHub</a>
-	</div>
+
+		<div class="GitHub">
+				<a class="btn btn-info" href="https://github.com/Sidkhanna96?tab=repositories" target="_blank">More on GitHub</a>
+		</div>
+
+		</div>
+		</div>
 	</section>
+		
+	<!-- </section> -->
+	
 
 	<script>
 		window.onbeforeunload = function () {
@@ -114,28 +117,29 @@
 			duration:3000});
 
 		sr.reveal('.card',{
-			delay: 2000,
+			delay: 800,
 			duration:2000,	
-			origin:'right',
-			distance:'180px'});
+			origin:'bottom',
+			distance:'20px'});
 
 		sr.reveal('.card2',{
-			delay: 800,
-			duration:2000});
+			delay: 1300,
+			duration: 2000,
+			origin:'bottom',
+			distance:'20px'});
 
 		sr.reveal('.card3',{
-			delay: 1500,
+			delay: 1600,
 			duration:2000,
-			origin:'left',
-			distance:'180px'});
+			origin:'bottom',
+			distance:'20px'});
 
 		sr.reveal('.GitHub',{
-			delay: 3000,
+			delay: 2000,
 			duration:2000});
 
-		sr.reveal('.panda',{
-			delay:4000});
-
+		// sr.reveal('.panda',{
+		// 	delay:4000});
 
 	</script>
 
