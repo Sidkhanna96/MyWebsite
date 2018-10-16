@@ -71,7 +71,7 @@ body,html{
 }
 
 .ptext {
-	position:absolute;
+	position: absolute;
 	top:40%;
 	text-align: center;
 	width: 100%;
@@ -80,6 +80,18 @@ body,html{
 	text-transform: uppercase;
 	line-height: 1.8em;
 }
+
+.MyPic {
+	border-radius: 50%;
+	width: 75px;
+	height: 75px;
+	position : absolute;
+	top: 38%;
+	margin-left: 420px;
+	/* margin-left: -90px; */
+	/* position: relative; */
+}
+
 
 .ptext .border {
  background-color: #111;
@@ -106,12 +118,15 @@ body,html{
 }
 
 .card, .card2, .card3 {
-	padding: 10px 10px;
+	padding: 10px 10px 10px 10px;
+	height: 140px;
+	margin-right: 4px;
+	margin-bottom: 4px;
 	background-color: white;
 	color: grey;
-	width: 20%;
-	height: 140px;
+	/* width: 20%; */
 	opacity: 0.8;
+	/* box-align: center; */
 }
 
 .card:hover, .card2:hover, .card3:hover {
@@ -124,10 +139,10 @@ body,html{
 
 .parent {
 	padding-top: 50px
-	overflow: hidden;
+
 }
 
-.card {
+/* .card {
 	float: left;
 }
 
@@ -139,21 +154,30 @@ body,html{
 .card3 {
 	float: left;
 	margin-left: 5px;
-}
+	/* position:relative; */
+} */
 
 .card-title:hover {
 	text-decoration: underline;
 }
 
-.panda {
+/* .panda {
 	background-image: url(8f1bde13c1d9744c5b69ecdc82fdd128458c6441_hq.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
 	height:32%;
 	background-position: right; 
-}
+} */
+
+/* .GitHub { */
+	/* transform: translateX(-220px); */
+	/* margin-top: -60px; */
+/* } */
 
 .GitHub {
-	transform: translateX(-220px);
-	margin-top: -60px;
+	clear: both;
+	/* position: relative; */
+	/* position: absolute; */
+	/* margin-top: 10px; */
+	/* position: absolute; */
 }
