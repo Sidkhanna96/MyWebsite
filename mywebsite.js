@@ -1,43 +1,39 @@
-window.onbeforeunload = function () {
-		window.scrollTo(0, 0);
-	}
+<script src="https://unpkg.com/scrollreveal"></script>
 
-window.sr = ScrollReveal();
+var x = document.getElementsByClassName("card");
 
-	sr.reveal('.border',{
-		duration:3000});
-
-	sr.reveal('.card',{
-		delay: 2000,
-		duration:2000,	
-		origin:'right',
-		distance:'180px'});
-
-	sr.reveal('.card2',{
-		delay: 800,
-		duration:2000});
-
-	sr.reveal('.card3',{
-		delay: 1500,
-		duration:2000,
-		origin:'left',
-		distance:'180px'});
-
-	sr.reveal('.GitHub',{
-		delay: 3000,
-		duration:2000});
-
-	sr.reveal('.panda',{
-		delay:4000});
+ScrollReveal().reveal(".card");
+// console.log(x, "elementbyclassname");
 
 
-
-// var name = prompt('What is your name');
-// alert(name);
-
-// if () {
-
+// window.onbeforeunload = function () {
+// 	window.scrollTo(0, 0);
 // }
-// else () {
 
-// }
+// window.sr = ScrollReveal();
+
+// 	console.log(x, "elementbyclassname");
+// 	sr.reveal('.border',{
+// 		duration:3000});
+
+// 	sr.reveal(x[0],{
+// 		delay: 800,
+// 		duration:2000,	
+// 		origin:'bottom',
+// 		distance:'20px'});
+
+// 	sr.reveal('.card2',{
+// 		delay: 1300,
+// 		duration: 2000,
+// 		origin:'bottom',
+// 		distance:'20px'});
+
+// 	sr.reveal('.card3',{
+// 		delay: 1600,
+// 		duration:2000,
+// 		origin:'bottom',
+// 		distance:'20px'});
+
+// 	sr.reveal('.GitHub',{
+// 		delay: 2000,
+// 		duration:2000});

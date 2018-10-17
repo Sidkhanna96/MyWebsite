@@ -45,7 +45,7 @@
 	</nav>
 
 	<div class="pimg1">
-		<img src="avatar2.png" alt="Avatar" class="MyPic">
+		<img class="MyPic img-fluid" src="avatar2.png" alt="Responsive image"> 
 		<div class="ptext">
 			<span class="border">
 				Sid Khanna
@@ -118,7 +118,7 @@
 				<div class="col-xs-12 col-md-4 col-lg-4"></div>
 			</div>
 		</div>
-		<div class="footer-copyright text-right py-3">© 2018 Copyright: Siddhant Khanna</div>
+		<div class="footer-copyright text-right py-3">© 2018 Copyright: Siddhant Khanna  </div>
 	</footer>
 			
 
@@ -128,6 +128,9 @@
 	}
 
 	window.sr = ScrollReveal();
+		sr.reveal('.MyPic',{
+			duration:4000
+		});
 
 		sr.reveal('.border',{
 			duration:3000});
@@ -153,10 +156,6 @@
 		sr.reveal('.GitHub',{
 			delay: 2000,
 			duration:2000});
-
-		// sr.reveal('.panda',{
-		// 	delay:4000});
-
 	</script>
 
 </body>
