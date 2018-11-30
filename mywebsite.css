@@ -41,6 +41,18 @@ body,html{
 	background-attachment: fixed;
 }
 
+.divVideo{
+	height: 100%;
+	width: 100%;
+}
+
+.Video {
+    position: fixed;
+    z-index: -100;
+    background-size: cover;
+	transition: 1s opacity;
+}
+
 .Media {
 	font-size: 45px;
 }
