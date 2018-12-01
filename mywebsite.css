@@ -7,6 +7,10 @@
 	border: 0;
 }
 
+#Projects, #About{
+	font-family: 'Courier New', Courier, monospace;
+}
+
 body,html{
 	height:100%;
 	margin:0;
@@ -19,7 +23,6 @@ body,html{
 .nav.navbar-nav li a {
     color: #fff;
     text-shadow: 0 0 5px black, 0 0 10px #000080, 0 0 20px #6CEBFC;
-    /*text-shadow: 0 0 5px black, 0 0 10px #000080, 0 0 20px #6CEBFC, 0 0 30px #6CEBFC, 0 0 40px #6CEBFC, 0 0 55px #6CEBFC, 0 0 75px #6CEBFC;*/
 }
 
 .nav.navbar-nav li a:hover{
@@ -31,9 +34,21 @@ body,html{
 	margin: 5px;
 }
 
-.pimg1 {
-	background-image: url(vYEocYv.gif);
-	min-height: 100%;
+.divVideo{
+	height: 100%;
+	width: 100%;
+}
+
+.Video {
+    position: fixed;
+    z-index: -100;
+    background-size: cover;
+	transition: 1s opacity;
+}
+
+.pimg2 {
+	background-image: url(bike.jpg);
+	min-height: 400px;
 	position:relative;
 	background-position: center;
 	background-size: cover;
@@ -55,8 +70,14 @@ body,html{
 
 .Media {
 	font-size: 45px;
+	stroke: black;
+  stroke-width: 5;
+
 }
 
+.fa-linkedin-in{
+	margin-bottom: 5px;
+}
 .Media a {
 	text-decoration: none;
 	color:#fff;
@@ -69,12 +90,30 @@ body,html{
 }
 
 .MyPic {
-	max-width: 75px;
-	max-height: 75px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
-	top:38%;
 	border-radius: 50%;
-	margin-left: 33%;
+	top: 36%;
+	margin-left: 31%;
+	border: 2px solid #fff;
+    border-top-color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial
 }
 
 @media screen and (max-width: 600px){
@@ -82,13 +121,13 @@ body,html{
 		max-width: 120px;
 		max-height: 120px;
 		position: absolute;
-		top:10%;
+		top:13%;
 		border-radius: 50%;
 		margin-left: 37%;
 	}
 }
 
-.fa-linkedin-in:hover, .fa-github:hover, .fa-envelope:hover {
+.fa-linkedin-in:hover, .fa-youtube:hover, .fa-envelope:hover, .fa-instagram:hover, .fa-twitter:hover {
 	font-size: 50px;
 }
 
@@ -121,16 +160,6 @@ body,html{
 }
 
 
-.pimg2 {
-	background-image: url(GeEuGfe.gif);
-	min-height: 400px;
-	position:relative;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
 .section-dark {
 	background-color:#282e34;
 	color:#ddd;
@@ -140,13 +169,20 @@ body,html{
 .card, .card2, .card3 {
 	padding: 10px 10px 10px 10px;
 	height: 140px;
-	margin-right: 4px;
-	margin-bottom: 4px;
+	margin-right: 20px;
+	margin-left: 65px;
+	margin-bottom: 10px;
 	background-color: white;
 	color: grey;
-	/* width: 20%; */
 	opacity: 0.8;
-	/* box-align: center; */
+}
+
+@media screen and (max-width: 600px){
+	.card, .card2, .card3 {
+		/* background-color: pink; */
+		margin-left: 0px;
+	}
+
 }
 
 .card:hover, .card2:hover, .card3:hover {
@@ -180,4 +216,12 @@ body,html{
 }
 .GitHub {
 	clear: both;
+}
+
+.heading{
+	font-family: Thesans;
+	/* background-color: #6CEBFC; */
+	text-decoration: underline;
+	color: rgb(143, 140, 125);
+	font-weight: 2;
 }
