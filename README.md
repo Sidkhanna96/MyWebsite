@@ -1,8 +1,11 @@
 # MyWebsite
 
-Languages Used:
+Front-End:
 
-HTML5
-CSS3
-JavaScript
-Bootstrap Framework
+  HTML5
+  
+  CSS3
+  
+  JavaScript
+  
+  Bootstrap Framework
