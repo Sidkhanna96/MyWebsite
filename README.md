@@ -1,4 +1,8 @@
 # MyWebsite
-My General Website
 
-This is a Website I created for personal use.
+Languages Used:
+
+HTML5
+CSS3
+JavaScript
+Bootstrap Framework
