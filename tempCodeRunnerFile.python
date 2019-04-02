@@ -1,0 +1,3 @@
+value = {'joe': 1}
+
+print(value.get('pokemon'))
