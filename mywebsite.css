@@ -39,6 +39,12 @@ body,html{
 	width: 100%;
 }
 
+#manulife-bank{
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
 .Video {
     position: fixed;
     z-index: -100;
